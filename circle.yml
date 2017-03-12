@@ -6,8 +6,9 @@ machine:
       0.10.22
 
   # Add some environment variables
-  #environment:
+  environment:
   #  CIRCLE_ENV: test
+    FURY_API_TOKEN: TJVzea1TvSLtthyPcwc3
 
 ## Customize deployment commands
 deployment:
