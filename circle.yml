@@ -1,0 +1,21 @@
+## Customize the test machine
+machine:
+  # Version of Node
+  node:
+    version:
+      0.10.22
+
+  # Add some environment variables
+  #environment:
+  #  CIRCLE_ENV: test
+
+## Customize deployment commands
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./deploy.sh
+  staging:
+    branch: master
+    commands:
+      - ./deploy.sh
